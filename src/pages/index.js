@@ -54,7 +54,7 @@ const ShopContainer = styled.div`
   @media screen and (max-width: 1024px) {
     border-color: green;
     width: 100vw;
-    margin-top: 47vh;
+    margin-top: 43vh;
   }
 `
 
@@ -92,7 +92,7 @@ const VerticalShopLink = styled.a`
   display: inline-block;
 
   position: fixed;
-  top: 47vh;
+  top: 43vh;
   left: 0;
   transform: rotate(270deg);
   z-index: 1;
@@ -156,7 +156,7 @@ const StayContainer = styled.div`
     border-color: orange;
     order: -1;
     width: 100vw;
-    height: 47vh;
+    height: 43vh;
 
     background-position: 50% 30%;
   }

@@ -40,13 +40,13 @@ const MobileTabletCarouselContainer = styled.div`
   z-index: -1;
   display: none;
   .carousel-slider {
-    height: 47vh;
+    height: 43vh;
   }
 
   @media screen and (max-width: 1024px) {
     display: block;
     width: 100vw;
-    height: 47vh;
+    height: 43vh;
   }
   
 `
