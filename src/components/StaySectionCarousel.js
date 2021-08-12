@@ -41,6 +41,9 @@ const MobileTabletCarouselContainer = styled.div`
   display: none;
   .carousel-slider {
     height: 43vh;
+    @media screen and (max-width: 375px) {
+      height: 40vh;
+    }
   }
 
   @media screen and (max-width: 1024px) {
@@ -48,7 +51,9 @@ const MobileTabletCarouselContainer = styled.div`
     width: 100vw;
     height: 43vh;
   }
-  
+  @media screen and (max-width: 375px) {
+    height: 40vh;
+  }
 `
 
 const StaySectionCarousel = () => (

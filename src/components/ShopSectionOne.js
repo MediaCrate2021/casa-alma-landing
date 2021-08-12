@@ -30,6 +30,9 @@ const ShopTitle = styled.h2`
   @media screen and (max-width: 640px) {
     letter-spacing: 1.5px;
   }
+  @media screen and (max-width: 375px) {
+    margin-bottom: 40px;
+  }
 `
 
 const ImgContainer = styled.div`

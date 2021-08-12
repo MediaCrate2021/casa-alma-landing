@@ -56,6 +56,9 @@ const ShopContainer = styled.div`
     width: 100vw;
     margin-top: 43vh;
   }
+  @media screen and (max-width: 375px) {
+    margin-top: 40vh;
+  }
 `
 
 const ShopContentContainer = styled.div`
@@ -75,6 +78,9 @@ const ShopContentContainer = styled.div`
   @media screen and (max-width: 640px) {
     margin: 4.5vh;
     margin-bottom: 0;
+  }
+  @media screen and (max-width: 375px) {
+    margin: 3.5vh;
   }
 `
 
@@ -130,6 +136,10 @@ const VerticalShopLink = styled.a`
   @media screen and (max-width: 640px) {
     left: -14vw;
   }
+
+  @media screen and (max-width: 375px) {
+    height: 40vh;
+  }
 `
 
 const StayContainer = styled.div`
@@ -160,6 +170,9 @@ const StayContainer = styled.div`
 
     background-position: 50% 30%;
   }
+  @media screen and (max-width: 375px) {
+    height: 40vh;
+  }
 `
 
 const StayTextContainer = styled.div`
@@ -173,6 +186,9 @@ const StayTextContainer = styled.div`
 
   @media screen and (max-width: 640px) {
     margin: 4.5vh;
+  }
+  @media screen and (max-width: 375px) {
+    margin: 3.5vh;
   }
 `
 
