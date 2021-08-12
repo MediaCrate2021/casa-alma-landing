@@ -86,6 +86,9 @@ const ShopButton = styled.button`
   @media screen and (max-width: 640px) {
     margin: 42px 0 47px 0;
   }
+  @media screen and (max-width: 375px) {
+    margin-top: 24px;
+  }
 `
 
 const Section = styled.div`

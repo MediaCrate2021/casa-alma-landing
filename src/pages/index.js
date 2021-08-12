@@ -237,6 +237,10 @@ background-position: 50% 50%;
   height: 30px;
   margin-bottom: 9vh;
 }
+
+@media screen and (max-width: 375px) {
+  margin-bottom: 4vh;
+}
 `
 
 const CabinSecondaryTitle = styled.h3`
@@ -251,6 +255,10 @@ const CabinSecondaryTitle = styled.h3`
   @media screen and (max-width: 640px) {
     letter-spacing: 2.8px;
     margin-bottom: 5vh;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin-bottom: 3.5vh;
   }
 `
 
